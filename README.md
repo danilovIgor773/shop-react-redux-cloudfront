@@ -69,3 +69,16 @@ Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or
 ### `serverless:remove`
 
 Remove an entire stack configured in `serverless.yml` via CloudFormation.
+
+
+### Module 2. Implemented tasks:
+### -  Task 2.1:
+    Manual Deployment is implemented and all the infrastructure associated with this task is deleted (as it is described in tasl requirements)
+
+### Task 2.2:
+    Automated Deployment:
+        - S3 link: http://guitar-shop-react-redux-2.s3-website-eu-west-1.amazonaws.com/
+        - Cloudfront: https://d2ymknwuc6i0u6.cloudfront.net/
+
+### NPM script to run:
+`npm run cloudfront:update:build:deploy`
